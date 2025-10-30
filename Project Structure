@@ -1,0 +1,17 @@
+fake-news-hate-speech-detector/
+|-- src/
+| |-- main.py # Streamlit UI
+| |-- train.py # Model training script
+| |-- preprocess.py # Text cleaning utilities
+| |-- model.py # Model load/save utilities
+|
+|-- data/
+| |-- fake_news.csv
+| |-- hate_speech.csv
+|
+|-- models/
+| |-- fake_news_model.joblib
+| |-- hate_speech_model.joblib
+|
+|-- requirements.txt
+|-- README.md
